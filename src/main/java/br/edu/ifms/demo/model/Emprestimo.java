@@ -25,8 +25,6 @@ public class Emprestimo {
 
   private Double valorEmprestimo;
 
-  // data
-
   // relacionamento ManyToOne com Setor
   // varios emprestimos para um funcionario
   @ManyToOne
